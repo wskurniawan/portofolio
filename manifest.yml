@@ -1,0 +1,3 @@
+applications:
+- name: wisnu
+  memory: 128M
