@@ -1,0 +1,200 @@
+body {
+   background: linear-gradient(to bottom right, #50a3a2 0%, #2eca7f 100%);
+   min-height: 100vh;
+   font-family: 'Poppins', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, span, p {
+   font-family: 'Poppins', sans-serif;
+}
+
+.ws-grid-normal {
+   margin: 0px;
+}
+
+.ws-col-normal {
+   padding-left: 0px;
+}
+
+.ws-col-padding {
+   padding: 4px;
+}
+
+.ws-top-menu {
+   background-color: white;
+   border-radius: 4px;
+   padding: 2px;
+   text-align: center;
+}
+
+.ws-menu-text {
+   font-size: 11px;
+   font-weight: bold;
+   text-transform: uppercase;
+   font-family: 'Poppins', sans-serif;
+}
+
+.ws-menu-icon {
+   font-size: 40px;
+}
+
+.ws-profile-image {
+   width: 140px;
+   height: 140px;
+   overflow: hidden;
+   object-fit: cover;
+}
+
+.ws-title {
+   font-size: 28px;
+   color: #171717;
+   line-height: 28px;
+   font-weight: 400;
+}
+
+.ws-menu-item.uk-active>a {
+   color: #2eca7f !important;
+}
+
+.ws-menu-item>a:hover {
+   color: #2eca7f !important;
+}
+
+a.ws-social-link:hover{
+   color: #2eca7f !important;
+}
+
+.ws-margin-small {
+   margin: 12px;
+}
+
+a.ws-social-link{
+   color: #171717;
+}
+
+.ws-social-icon {
+   font-size: 24px;
+}
+
+.ws-scrollbar::-webkit-scrollbar {
+   width: 8px;
+}
+
+.ws-scrollbar::-webkit-scrollbar-track {
+   -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0);
+}
+
+.ws-scrollbar::-webkit-scrollbar-thumb {
+   background-color: darkgrey;
+   outline: 1px solid slategrey;
+}
+
+.ws-section-title {
+   font-size: 17px;
+   font-weight: bold;
+   color: #2eca7f;
+}
+
+.ws-section-devider{
+   margin-bottom: 24px;
+}
+
+p{
+   font-size: 14px;
+   line-height: 1.6;
+   padding: 0;
+   margin: 0 0 20px 0;
+}
+
+.ws-border-line{
+   width: 100%;
+   height: 1px;
+   margin-left: -20%;
+   background: radial-gradient(ellipse at left, rgba(197, 202, 213, 0.7) 0%, rgba(255, 255, 255, 0) 70%);
+}
+
+.ws-content-padding{
+   padding: 20px;
+}
+
+.ws-border-line-v:before {
+   content: '';
+   position: absolute;
+   width: 1px;
+   min-height: 200px;
+   max-height: 40%;
+   background: -moz-radial-gradient(top, ellipse cover, rgba(197, 202, 213, 0.7) 0%, rgba(255, 255, 255, 0) 70%);
+   background: -webkit-radial-gradient(top, ellipse cover, rgba(197, 202, 213, 0.7) 0%, rgba(255, 255, 255, 0) 70%);
+   background: radial-gradient(ellipse at top, rgba(197, 202, 213, 0.7) 0%, rgba(255, 255, 255, 0) 70%);
+}
+
+.ws-padding-small{
+   padding: 12px;
+}
+
+.ws-icon-container-circle{
+   color: #2eca7f;
+   width: 60px;
+   height: 60px;
+   font-size: 28px;
+   border-radius: 50%;
+   background: -moz-linear-gradient(-45deg, rgba(46, 202, 127, 0.4) 0%, rgba(46, 202, 127, 0.01) 100%);
+   background: -webkit-linear-gradient(-45deg, rgba(46, 202, 127, 0.4) 0%, rgba(46, 202, 127, 0.01) 100%);
+   background: linear-gradient(135deg, rgba(46, 202, 127, 0.4) 0%, rgba(46, 202, 127, 0.01) 100%);
+   display: -webkit-box;  /* OLD - iOS 6-, Safari 3.1-6, BB7 */
+   display: -ms-flexbox;  /* TWEENER - IE 10 */
+   display: -webkit-flex; /* NEW - Safari 6.1+. iOS 7.1+, BB10 */
+   display: flex;         /* NEW, Spec - Firefox, Chrome, Opera */
+   
+   justify-content: center;
+   align-items: center;
+}
+
+.ws-max-height{
+   height: 100%;
+}
+
+.ws-section-item{
+   margin: 15px 0 10px 0;
+   font-size: 13px;
+   color: #171717;
+   font-weight: bold;
+   text-transform: uppercase;
+   font-family: 'Poppins', sans-serif;
+}
+
+/* .ws-section-title::before {
+   background: linear-gradient(135deg, rgba(255, 94, 148, 0.4) 0%, rgba(255, 94, 148, 0.01) 100%);
+}
+
+.ws-section-title::after {
+   content: '';
+   position: absolute;
+   left: -60px;
+   bottom: -15px;
+   width: 95%;
+   height: 1px;
+   background: radial-gradient(ellipse at left, rgba(197, 202, 213, 0.7) 0%, rgba(255, 255, 255, 0) 70%);
+} */
+
+@media screen and (min-width: 960px) {
+   .ws-profile-content {
+      overflow-y: scroll;
+      max-height: 90vh;
+   }
+
+   .ws-content-container{
+      padding-left: 4px;
+   }
+
+   .ws-profile-card{
+      max-height: 600px;
+   }
+}
+
+@media screen and (max-width: 960px) {
+   body{
+      padding-top: 42px;
+      padding-bottom: 42px;
+   }
+}
